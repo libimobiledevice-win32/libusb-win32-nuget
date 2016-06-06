@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>libusb-win32-driver</id>
+    <version>{Version}</version>
+    <authors>Stephan Meyer, Johannes Erdfelt, Thomas Sailer, Travis Robinson, Xiaofan Chen</authors>
+    <owners>Quamotion</owners>
+    <projectUrl>https://sourceforge.net/p/libusb-win32/wiki/Home/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>This package contains the libusb-win32 drivers.</summary>
+    <description>
+      libusb-win32 is a port of the USB library libusb 0.1 (http://sourceforge.net/projects/libusb) to the Microsoft Windows operating systems (Windows 2000, Windows XP, Windows Vista and Windows 7; Windows 98 SE and Windows ME for versions up to 0.1.12.2 ). The library allows user space applications to access many USB device on Windows in a generic way without writing any line of kernel driver code.
+      Vista/7/2008/2008R2 64 bit are supported from version 1.2.0.0 since a Microsoft KMCS accepted digital signature is embedded in the kernel driver libusb0.sys.
+    </description>
+    <tags>libusb-win32 usb driver</tags>
+    <copyright>Stephan Meyer, Johannes Erdfelt, Thomas Sailer, Travis Robinson, Xiaofan Chen.</copyright>
+    <licenseUrl>https://sourceforge.net/projects/libusb-win32/</licenseUrl>
+    <releaseNotes>https://sourceforge.net/projects/libusb-win32/</releaseNotes>
+  </metadata>
+
+  <files>
+    <file src="{Dir}\**\*.*" target="tools\" />
+  </files>
+</package>
